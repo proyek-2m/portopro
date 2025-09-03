@@ -25,7 +25,7 @@ export const queryHeadingCertification = async (
 ) => {
 	let sort: Sort | undefined = undefined
 	let search: OptionsQueryCertifications['search'] = options?.search
-	let limit = options?.limit || block.total || 1000000
+	let limit = options?.limit || block.total || 2
 	const certificationIds: number[] = []
 	const toolIds: number[] = []
 

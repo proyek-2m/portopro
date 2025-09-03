@@ -14,7 +14,7 @@ export default function PostCategoryTemplate({ data, site, profile }: Props) {
 				site={site}
 				profile={profile}
 			/>
-			<main className="site-main pb-20">
+			<main className="site-main pt-12 md:pt-16 pb-20 md:pb-32">
 				<ListingPost
 					block={{
 						type: 'selectedCategories',

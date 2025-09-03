@@ -20,7 +20,7 @@ export const queryHeadingPortofolio = async (
 ) => {
 	let sort: Sort | undefined = undefined
 	let search: OptionsQueryPortofolios['search'] = options?.search
-	let limit = options?.limit || block.total || 1000000
+	let limit = options?.limit || block.total || 4
 	const portofolioIds: number[] = []
 	const toolIds: number[] = []
 
